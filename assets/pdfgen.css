@@ -1,0 +1,10 @@
+#email_forpdf_file_cli {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    resize: vertical;
+}

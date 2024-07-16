@@ -1,0 +1,99 @@
+.pdfgen_cont input[type=text], .pdfgen_cont select, .pdfgen_cont textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.pdfgen_cont input[type=submit], .shiz_reap__add, .shiz_reap__remove {
+    background-color: #0f04aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.pdfgen_cont input[type=submit]:hover, .shiz_reap__add:hover, .shiz_reap__remove:hover {
+    background-color: #161250;
+}
+
+.pdfgen_cont {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.u_pdf {
+    max-width: 900px;
+}
+
+.shiz_reap__input {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 2fr 1fr;
+    width: calc(100% - 100px);
+}
+.shiz_reap {
+    margin-bottom: 60px;
+}
+.shiz_reap__add {
+    float: right;
+    margin-top: -50px;
+ 
+}
+.shiz_reap__remove {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+.shiz_reap__cont {
+    position: relative;
+}
+.pdfgen_cont h2 {
+    font-size: 30px;
+    border-bottom: 2px solid;
+    padding: 0 20px 20px 20px;
+    width: max-content;
+    margin: 0 auto 50px auto;
+    color: #0f04aa;
+}
+.padf_links {
+    display: grid;
+    gap: 25px;
+}
+.padf_links__cont {
+    display: flex;
+    gap: 20px;
+}
+.padf_links .shiz_link__pdf, .shiz_link__remove {
+    font-size: 20px;
+    text-align: center;
+    background-color: #0f04aa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 173px);
+
+}
+.padf_links .shiz_link__pdf:hover, .shiz_link__remove:hover {
+    background-color: #161250;
+}
+.pdfgen_cont .shiz_link__remove {
+    background-color: #da1818!important;
+    width: 111px!important;
+}
+.pdfgen_cont .shiz_link__remove:hover {
+    background-color: #8d1010!important;
+}
